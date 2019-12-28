@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LoyaltyServiceApplication {
+public class LoyaltyServiceStarter {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LoyaltyServiceApplication.class, args);
+		SpringApplication.run(LoyaltyServiceStarter.class, args);
 	}
 
 }
